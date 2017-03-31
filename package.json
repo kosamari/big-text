@@ -1,0 +1,13 @@
+{
+  "name": "big-text",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bankai": "^6.0.0",
+    "sheetify": "^6.0.1",
+    "bel": "^4.6.0",
+    "yo-yo": "^1.4.0"
+  }
+}
