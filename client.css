@@ -1,19 +1,21 @@
 * {
   margin:0px;
-  background-color:#32CCB7;
+  background-color:pink;
 }
 
 section {
+  padding:0px 20px;
   height: 100vh;
   display: flex;
   flex-direction: row;
   align-items: center;
-  text-align: center;
+  justify-content:center;
 }
 
 section > h1 {
+  align-self:center;
   font-family: Arial, sans-serif;
-  font-size: 10vw;
+  font-size: 8vw;
   color:#fff;
   text-shadow: 1px 1px 1px #000; 
 }

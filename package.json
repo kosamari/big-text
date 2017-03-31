@@ -7,7 +7,6 @@
   "dependencies": {
     "bankai": "^6.0.0",
     "sheetify": "^6.0.1",
-    "bel": "^4.6.0",
     "yo-yo": "^1.4.0"
   }
 }

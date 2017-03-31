@@ -6,6 +6,7 @@ css('./client.css')
 
 
 function component (str) {
+  console.log('str', str)
   return yo`
     <section>
       <h1>${str}</h1>
@@ -14,6 +15,7 @@ function component (str) {
 }
 
 function render () {
+  console.log(window.location.hash.replace('#', ''))
   if (!el) {
     el = component(window.location.hash.replace('#', ''))
     document.body.appendChild(el)
